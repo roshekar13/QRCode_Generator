@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+qr_app/
+
+# Runtime-generated files (uploads and QR codes created during booth operation)
+uploads/
+qrcodes/
+qrcodes_bmp/
+image_metadata.json
+current_qrcode.txt
+
+# Compiled C artifacts
+*.o
+*.deb
+bin/
+
+# Vendor archives
+*.tar.gz
+*.zip
